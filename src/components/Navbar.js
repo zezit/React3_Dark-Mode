@@ -6,6 +6,7 @@ export default function Navbar(props) {
         <nav className={props.darkMode ? "dark" : ""}>
             <img
                 className="nav--logo_icon"
+                alt="logo"
                 src={logo}
             />
             <h3 className="nav--logo_text">ReactFacts</h3>
